@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-03 19:24:09</sys_created_on>
+        <sys_id>a76dc6e0932a4310f6a4fcf08bba103f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_2034419_metro_0_metro_booking.x_2034419_metro_0.metro_booking_user</sys_name>
+        <sys_package display_value="Metro Ticket Generating System" source="x_2034419_metro_0">a345a91393928b10f6a4fcf08bba109b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Metro Ticket Generating System">a345a91393928b10f6a4fcf08bba109b</sys_scope>
+        <sys_security_acl display_value="x_2034419_metro_0_metro_booking">af6dc6e0932a4310f6a4fcf08bba1039</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_a76dc6e0932a4310f6a4fcf08bba103f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-03 19:24:09</sys_updated_on>
+        <sys_user_role display_value="x_2034419_metro_0.metro_booking_user" name="x_2034419_metro_0.metro_booking_user">176d82e893e64310f6a4fcf08bba1022</sys_user_role>
+    </sys_security_acl_role>
+</record_update>

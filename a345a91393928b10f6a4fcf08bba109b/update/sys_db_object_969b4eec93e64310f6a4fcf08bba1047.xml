@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+    <sys_db_object action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <actions_access>false</actions_access>
+        <alter_access>false</alter_access>
+        <caller_access/>
+        <client_scripts_access>false</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>false</create_access>
+        <create_access_controls>true</create_access_controls>
+        <delete_access>false</delete_access>
+        <filter_extension/>
+        <is_df_table>false</is_df_table>
+        <is_extendable>false</is_extendable>
+        <label>Metro Booking</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>x_2034419_metro_0_metro_booking</name>
+        <number_ref display_value="MTB">0c792b1093320350f6a4fcf08bba1061</number_ref>
+        <provider_class/>
+        <read_access>true</read_access>
+        <scriptable_table>false</scriptable_table>
+        <super_class/>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-03 19:24:08</sys_created_on>
+        <sys_id>969b4eec93e64310f6a4fcf08bba1047</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Metro Booking</sys_name>
+        <sys_package display_value="Metro Ticket Generating System" source="x_2034419_metro_0">a345a91393928b10f6a4fcf08bba109b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Metro Ticket Generating System">a345a91393928b10f6a4fcf08bba109b</sys_scope>
+        <sys_update_name>sys_db_object_969b4eec93e64310f6a4fcf08bba1047</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-15 17:43:21</sys_updated_on>
+        <u_calle0/>
+        <u_caller/>
+        <update_access>false</update_access>
+        <user_role display_value="x_2034419_metro_0.metro_booking_user" name="x_2034419_metro_0.metro_booking_user">176d82e893e64310f6a4fcf08bba1022</user_role>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+</record_update>

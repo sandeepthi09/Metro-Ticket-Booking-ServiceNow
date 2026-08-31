@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_passenger_type" table="x_2034419_metro_0_metro_booking" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_passenger_type</element>
+            <name>x_2034419_metro_0_metro_booking</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-08-03 19:54:01</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_passenger_type</sys_name>
+            <sys_package display_value="Metro Ticket Generating System" source="x_2034419_metro_0">a345a91393928b10f6a4fcf08bba109b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Metro Ticket Generating System">a345a91393928b10f6a4fcf08bba109b</sys_scope>
+            <sys_update_name>sys_choice_x_2034419_metro_0_metro_booking_u_passenger_type</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-08-03 19:54:01</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_passenger_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Adult</label>
+            <language>en</language>
+            <name>x_2034419_metro_0_metro_booking</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-08-03 19:54:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-08-03 19:54:01</sys_updated_on>
+            <value>adult</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_passenger_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Child</label>
+            <language>en</language>
+            <name>x_2034419_metro_0_metro_booking</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-08-03 19:54:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-08-03 19:54:02</sys_updated_on>
+            <value>child</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_passenger_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Senior  citizen</label>
+            <language>en</language>
+            <name>x_2034419_metro_0_metro_booking</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-08-03 19:54:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-08-03 19:54:02</sys_updated_on>
+            <value>senior  citizen</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

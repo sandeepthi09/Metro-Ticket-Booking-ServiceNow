@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="d1327f9093720350f6a4fcf08bba10c7" label="Metro Payment Transaction" max_length="40" name="x_2034419_metro_0_metro_payment_transaction" type="collection">
+        <element label="Amount" mandatory="true" max_length="15" name="amount" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:gs.nowDateTime()" dynamic_default_value="79cb83a85f220100a9ad2572f2b4773c" label="Transaction Date" max_length="40" name="u_transaction_date" read_only="true" type="glide_date_time" use_dynamic_default="true"/>
+        <element attributes="encode_utf8=false" label="Booking" mandatory="true" max_length="32" name="booking" reference="x_2034419_metro_0_metro_booking" type="reference"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Transaction Number" mandatory="true" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Payment Reference" max_length="40" name="payment_reference" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Payment Method" mandatory="true" max_length="40" name="u_payment_method" type="string">
+            <choice>
+                <element inactive_on_update="false" label="UPI" sequence="0" value="upi"/>
+                <element inactive_on_update="false" label="Net Banking" sequence="2" value="net_banking"/>
+                <element inactive_on_update="false" label="Credit/Debit Card" sequence="1" value="credit_debit_card"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Payment Status" mandatory="true" max_length="40" name="u_payment_status" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Pending" sequence="0" value="pending"/>
+                <element inactive_on_update="false" label="Successful" sequence="1" value="successful"/>
+                <element inactive_on_update="false" label="Failed" sequence="2" value="failed"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="booking"/>
+        </index>
+    </element>
+</database>

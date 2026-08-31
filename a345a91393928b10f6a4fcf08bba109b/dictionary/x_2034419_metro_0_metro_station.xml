@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="46bf71e493a64310f6a4fcf08bba10ce" label="Metro Station" max_length="40" name="x_2034419_metro_0_metro_station" type="collection">
+        <element default="true" label="Active" max_length="40" name="u_active" type="boolean"/>
+        <element label="Distance From Origin" max_length="15" name="distance_from_origin" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Station Name" mandatory="true" max_length="100" name="station_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Station Code" mandatory="true" max_length="40" name="station_code" type="string" unique="true"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Zone" mandatory="true" max_length="40" name="u_zone" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Zone 1" sequence="0" value="zone 1"/>
+                <element inactive_on_update="false" label="Zone 3" sequence="2" value="zone 3"/>
+                <element inactive_on_update="false" label="Zone 4" sequence="3" value="zone 4"/>
+                <element inactive_on_update="false" label="Zone 2" sequence="1" value="zone 2"/>
+            </choice>
+        </element>
+        <index name="index" unique="true">
+            <element name="station_code"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <applies_to/>
+        <condition/>
+        <controlled_by_refs/>
+        <decision_type>allow</decision_type>
+        <description>Default access control on x_2034419_metro_0_metro_station</description>
+        <local_or_existing>Existing</local_or_existing>
+        <name>x_2034419_metro_0_metro_station</name>
+        <operation display_value="write">write</operation>
+        <script/>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-03 17:31:45</sys_created_on>
+        <sys_id>59b37dac93264310f6a4fcf08bba1048</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_2034419_metro_0_metro_station</sys_name>
+        <sys_package display_value="Metro Ticket Generating System" source="x_2034419_metro_0">a345a91393928b10f6a4fcf08bba109b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Metro Ticket Generating System">a345a91393928b10f6a4fcf08bba109b</sys_scope>
+        <sys_update_name>sys_security_acl_59b37dac93264310f6a4fcf08bba1048</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-03 17:31:45</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Metro Ticket Generating System">a345a91393928b10f6a4fcf08bba109b</application>
+        <file_path/>
+        <instance_id>ae723dd5fbf7d29489a2f4344eefdcab</instance_id>
+        <instance_name>dev295483</instance_name>
+        <name>sys_security_acl_59b37dac93264310f6a4fcf08bba1048</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><controlled_by_refs/><decision_type>allow</decision_type><description>Default access control on x_2034419_metro_0_metro_station</description><local_or_existing>Existing</local_or_existing><name>x_2034419_metro_0_metro_station</name><operation display_value="write">write</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-08-03 17:31:45</sys_created_on><sys_id>59b37dac93264310f6a4fcf08bba1048</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_2034419_metro_0_metro_station</sys_name><sys_package display_value="Metro Ticket Generating System" source="x_2034419_metro_0">a345a91393928b10f6a4fcf08bba109b</sys_package><sys_policy/><sys_scope display_value="Metro Ticket Generating System">a345a91393928b10f6a4fcf08bba109b</sys_scope><sys_update_name>sys_security_acl_59b37dac93264310f6a4fcf08bba1048</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-03 17:31:45</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>373937581</payload_hash>
+        <record_name>x_2034419_metro_0_metro_station</record_name>
+        <reverted_from/>
+        <source>eb27251793928b10f6a4fcf08bba1076</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-03 17:31:45</sys_created_on>
+        <sys_id>15b37dac93264310f6a4fcf08bba104d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19fc8ae7b590000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-03 17:31:45</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>d1b37dac22264310105a2d3eec4d914c</update_guid>
+        <update_guid_history>d1b37dac22264310105a2d3eec4d914c:373937581</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-03 18:21:45</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>511d1c08e7f748b3a2f3c507e8087b51</sys_id>
+        <sys_metadata>59b37dac93264310f6a4fcf08bba1048</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_2034419_metro_0_metro_station</sys_name>
+        <sys_package display_value="Metro Ticket Generating System" source="x_2034419_metro_0">a345a91393928b10f6a4fcf08bba109b</sys_package>
+        <sys_parent display_value="">d5b37dac93264310f6a4fcf08bba1085</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Metro Ticket Generating System">a345a91393928b10f6a4fcf08bba109b</sys_scope>
+        <sys_scope_delete display_value="">354de0faea594c3a9679d9b9f84effc4</sys_scope_delete>
+        <sys_update_name>sys_security_acl_59b37dac93264310f6a4fcf08bba1048</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_59b37dac93264310f6a4fcf08bba1048">15b37dac93264310f6a4fcf08bba104d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-03 18:21:45</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

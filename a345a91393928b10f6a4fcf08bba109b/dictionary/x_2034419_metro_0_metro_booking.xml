@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="969b4eec93e64310f6a4fcf08bba1047" label="Metro Booking" max_length="40" name="x_2034419_metro_0_metro_booking" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" default="Pending" label="WhatsApp Status" max_length="40" name="u_whatsapp_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Sent" sequence="1" value="sent"/>
+                <element inactive_on_update="false" label="Pending" sequence="0" value="pending"/>
+                <element inactive_on_update="false" label="Failed" sequence="2" value="failed"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Transaction ID" max_length="100" name="transaction_id" type="string"/>
+        <element default="1" label="Number of Tickets" mandatory="true" max_length="40" name="number_of_tickets" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="QR ID" max_length="100" name="qr_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Passenger" max_length="100" name="passenger" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Booking Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="Adult" label="Passenger Type" mandatory="true" max_length="40" name="u_passenger_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Child" sequence="1" value="child"/>
+                <element inactive_on_update="false" label="Adult" sequence="0" value="adult"/>
+                <element inactive_on_update="false" label="Senior  citizen" sequence="2" value="senior  citizen"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="Pending" label="Email Status" max_length="40" name="u_email_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Failed" sequence="2" value="failed"/>
+                <element inactive_on_update="false" label="Sent" sequence="1" value="sent"/>
+                <element inactive_on_update="false" label="Pending" sequence="0" value="pending"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Email" max_length="100" name="email" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Payment Method" max_length="40" name="u_payment_method" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="UPI" sequence="0" value="upi"/>
+                <element inactive_on_update="false" label="Wallet" sequence="3" value="wallet"/>
+                <element inactive_on_update="false" label="Credit Card" sequence="1" value="credit card"/>
+                <element inactive_on_update="false" label="Cash" sequence="4" value="Cash"/>
+                <element inactive_on_update="false" label="Debit Card" sequence="2" value="debit card"/>
+            </choice>
+        </element>
+        <element attributes="encode_utf8=false" label="Source Station" mandatory="true" max_length="32" name="source_station" reference="x_2034419_metro_0_metro_station" type="reference"/>
+        <element label="Fare Per Ticket" max_length="15" name="fare_per_ticket" read_only="true" type="decimal"/>
+        <element label="Travel Distance" max_length="15" name="travel_distance" read_only="true" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" label="QR Code" max_length="1000" name="qr_code" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="Pending" label="Payment Status" max_length="40" name="u_payment_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Failed" sequence="2" value="failed"/>
+                <element inactive_on_update="false" label="Pending" sequence="0" value="pending"/>
+                <element inactive_on_update="false" label="Refunded" sequence="3" value="refunded"/>
+                <element inactive_on_update="false" label="Success" sequence="1" value="success"/>
+            </choice>
+        </element>
+        <element attributes="encode_utf8=false" label="Destination Station" mandatory="true" max_length="32" name="destination_station" reference="x_2034419_metro_0_metro_station" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Travel Date" mandatory="true" max_length="40" name="travel_date" type="glide_date"/>
+        <element label="QR Data" max_length="65536" name="qr_data" type="html"/>
+        <element label="Total Fare" max_length="15" name="total_fare" read_only="true" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" label="Mobile Number" max_length="40" name="mobile_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="QR Image URL" max_length="1024" name="qr_image_url" type="url"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="Draft" label="Booking Status" mandatory="true" max_length="40" name="u_booking_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Pending Payment" sequence="1" value="pending payment"/>
+                <element inactive_on_update="false" label="Draft" sequence="0" value="draft"/>
+                <element inactive_on_update="false" label="Cancelled" sequence="3" value="cancelled"/>
+                <element inactive_on_update="false" label="Completed" sequence="4" value="completed"/>
+                <element inactive_on_update="false" label="Confirmed" sequence="2" value="confirmed"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="destination_station"/>
+        </index>
+        <index name="index2">
+            <element name="source_station"/>
+        </index>
+    </element>
+</database>

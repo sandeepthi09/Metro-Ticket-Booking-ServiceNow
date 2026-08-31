@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="distance_from_origin" label="Distance From Origin" language="en" table="x_2034419_metro_0_metro_station">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>distance_from_origin</element>
+            <help/>
+            <hint/>
+            <label>Distance From Origin</label>
+            <language>en</language>
+            <name>x_2034419_metro_0_metro_station</name>
+            <plural>Distance From Origins</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-08-03 18:38:32</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Distance From Origin</sys_name>
+            <sys_package display_value="Metro Ticket Generating System" source="x_2034419_metro_0">a345a91393928b10f6a4fcf08bba109b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Metro Ticket Generating System">a345a91393928b10f6a4fcf08bba109b</sys_scope>
+            <sys_update_name>sys_documentation_x_2034419_metro_0_metro_station_distance_from_origin_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-08-03 18:38:32</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

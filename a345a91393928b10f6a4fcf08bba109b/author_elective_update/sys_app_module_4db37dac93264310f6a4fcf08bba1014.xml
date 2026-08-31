@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Metro Ticket System">45b37dac93264310f6a4fcf08bba1000</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Metro Stations</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_2034419_metro_0_metro_station</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles>x_2034419_metro_0.metro_station_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-03 17:31:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4db37dac93264310f6a4fcf08bba1014</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Metro Stations</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Metro Ticket Generating System" source="x_2034419_metro_0">a345a91393928b10f6a4fcf08bba109b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Metro Ticket Generating System">a345a91393928b10f6a4fcf08bba109b</sys_scope>
+        <sys_update_name>sys_app_module_4db37dac93264310f6a4fcf08bba1014</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-03 17:31:45</sys_updated_on>
+        <timeline_page/>
+        <title>Metro Stations</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Metro Ticket Generating System">a345a91393928b10f6a4fcf08bba109b</application>
+        <file_path/>
+        <instance_id>ae723dd5fbf7d29489a2f4344eefdcab</instance_id>
+        <instance_name>dev295483</instance_name>
+        <name>sys_app_module_4db37dac93264310f6a4fcf08bba1014</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Metro Ticket System">45b37dac93264310f6a4fcf08bba1000</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Metro Stations</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_2034419_metro_0_metro_station</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><require_confirmation>true</require_confirmation><roles>x_2034419_metro_0.metro_station_user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-08-03 17:31:45</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>4db37dac93264310f6a4fcf08bba1014</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Metro Stations</sys_name><sys_overrides/><sys_package display_value="Metro Ticket Generating System" source="x_2034419_metro_0">a345a91393928b10f6a4fcf08bba109b</sys_package><sys_policy/><sys_scope display_value="Metro Ticket Generating System">a345a91393928b10f6a4fcf08bba109b</sys_scope><sys_update_name>sys_app_module_4db37dac93264310f6a4fcf08bba1014</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-03 17:31:45</sys_updated_on><timeline_page/><title>Metro Stations</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>1566643675</payload_hash>
+        <record_name>Metro Stations</record_name>
+        <reverted_from/>
+        <source>eb27251793928b10f6a4fcf08bba1076</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-03 17:31:45</sys_created_on>
+        <sys_id>91b37dac93264310f6a4fcf08bba101c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19fc8ae799b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-03 17:31:45</sys_updated_on>
+        <type>Module</type>
+        <update_guid>01b37dacd9264310b629693ab328de1b</update_guid>
+        <update_guid_history>01b37dacd9264310b629693ab328de1b:1566643675</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Metro Stations">bd2fbd6493a64310f6a4fcf08bba1007</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-03 18:21:46</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>1a919358f1534ca8a39a7f4aac85fa90</sys_id>
+        <sys_metadata>4db37dac93264310f6a4fcf08bba1014</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Metro Stations</sys_name>
+        <sys_package display_value="Metro Ticket Generating System" source="x_2034419_metro_0">a345a91393928b10f6a4fcf08bba109b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Metro Ticket Generating System">a345a91393928b10f6a4fcf08bba109b</sys_scope>
+        <sys_scope_delete display_value="">354de0faea594c3a9679d9b9f84effc4</sys_scope_delete>
+        <sys_update_name>sys_app_module_4db37dac93264310f6a4fcf08bba1014</sys_update_name>
+        <sys_update_version display_value="sys_app_module_4db37dac93264310f6a4fcf08bba1014">91b37dac93264310f6a4fcf08bba101c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-03 18:21:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
